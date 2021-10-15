@@ -1,4 +1,4 @@
-function order(words: string) : string {
+function order(words: string): string {
   let result = [];
   let text = words.split(" ");
 
@@ -13,7 +13,7 @@ function order(words: string) : string {
       }
     }
   }
-let strResult = result.join(" ");
-return strResult;
+  let strResult = result.join(" ");
+  return strResult;
 }
 export default order;
