@@ -4,8 +4,8 @@
  * @return {any} result
  */
 
-function findStray(arr: number[]): any {
-  let result = arr.find(
+function findStray(arr: number[]): number {
+  const result = arr.find(
     (value) => arr.indexOf(value) === arr.lastIndexOf(value),
   );
   if (result === undefined) {
